@@ -1,0 +1,65 @@
+{
+  "show_on_work": true,
+  "hero_image": "assets/img/work-ryve.jpg",
+  "screens": [],
+  "quote": {
+    "text": "[Add a real quote from the client, approved by them]",
+    "name": "[Name]",
+    "role": "[Role], Ryve"
+  },
+  "needed_muted": "so more visitors turn into orders.",
+  "slug": "ryve",
+  "name": "Ryve",
+  "order": 1,
+  "number": "01",
+  "type_label": "Website",
+  "filter": "Website",
+  "card_image": "assets/img/work-ryve.jpg",
+  "card_line": "A streetwear brand, with a fast website that increases conversion & aestahtic appeal",
+  "crumb": "Website · Streetwear",
+  "title_before": "A website that sells",
+  "title_highlight": "Ryve's",
+  "title_after": "streetwear.",
+  "facts": [
+    {
+      "label": "Industry",
+      "value": "Streetwear"
+    },
+    {
+      "label": "What we built",
+      "value": "E-commerce website"
+    },
+    {
+      "label": "Platform",
+      "value": "Web, mobile-first"
+    },
+    {
+      "label": "Delivered in",
+      "value": "[X weeks]"
+    }
+  ],
+  "client": "Ryve is a streetwear brand [add a line on who they sell to and where]. They needed a site that looks as good as the clothes and loads fast on a phone.",
+  "needed": "A fast, good-looking store where customers can browse collections and buy in a few taps,",
+  "features": [
+    {
+      "title": "Collection pages",
+      "text": "Drops and collections laid out the way the brand wants them seen."
+    },
+    {
+      "title": "Fast on mobile",
+      "text": "Light pages that load quickly on any phone."
+    },
+    {
+      "title": "Simple checkout",
+      "text": "[Add the payment options used]."
+    },
+    {
+      "title": "Easy updates",
+      "text": "New products and banners added without a developer."
+    }
+  ],
+  "stack": [
+    "[Add stack]"
+  ],
+  "seo_description": "How Novera Labs built a fast, conversion-focused website for Ryve, a streetwear brand."
+}

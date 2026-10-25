@@ -1,0 +1,65 @@
+{
+  "show_on_work": true,
+  "hero_image": "assets/img/work-popobozo.jpg",
+  "screens": [],
+  "quote": {
+    "text": "[Add a real quote from the client, approved by them]",
+    "name": "[Name]",
+    "role": "[Role], popobozo"
+  },
+  "needed_muted": "and makes buying effortless.",
+  "slug": "popobozo",
+  "name": "popobozo",
+  "order": 2,
+  "number": "02",
+  "type_label": "Website",
+  "filter": "Website",
+  "card_image": "assets/img/work-popobozo.jpg",
+  "card_line": "A premium perfume, with a website built to cater exclusive audience.",
+  "crumb": "Website · Perfume",
+  "title_before": "A premium home for",
+  "title_highlight": "popobozo's",
+  "title_after": "perfumes.",
+  "facts": [
+    {
+      "label": "Industry",
+      "value": "Perfume"
+    },
+    {
+      "label": "What we built",
+      "value": "Brand website"
+    },
+    {
+      "label": "Platform",
+      "value": "Web, mobile-first"
+    },
+    {
+      "label": "Delivered in",
+      "value": "[X weeks]"
+    }
+  ],
+  "client": "popobozo is a premium perfume brand [add a line about the brand]. Their audience expects a website that feels as exclusive as the product.",
+  "needed": "A website with a luxury feel that tells the story of each fragrance,",
+  "features": [
+    {
+      "title": "Product storytelling",
+      "text": "Each fragrance gets its own page, notes and imagery."
+    },
+    {
+      "title": "Premium look and feel",
+      "text": "Typography, spacing and motion built for a luxury brand."
+    },
+    {
+      "title": "WhatsApp ordering",
+      "text": "[Confirm how customers order or enquire]."
+    },
+    {
+      "title": "Fast on mobile",
+      "text": "Light pages that load quickly on any phone."
+    }
+  ],
+  "stack": [
+    "[Add stack]"
+  ],
+  "seo_description": "How Novera Labs built a premium website for popobozo, a perfume brand."
+}

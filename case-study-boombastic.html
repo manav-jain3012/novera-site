@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Case study: Boombastic | Novera Labs</title>
+<meta name="description" content="How Novera Labs built a custom CRM for Boombastic to track customers, visits, pipeline, follow-ups and payments.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="icon" href="assets/img/mark.png">
+</head>
+<body>
+<div class="loader" id="loader" aria-hidden="true"><img src="assets/img/mark-white.png" alt="" width="56" height="56"><span class="bar"><i></i></span></div>
+<header class="site-header">
+  <div class="bar">
+    <a class="logo" href="index.html" aria-label="Novera Labs home"><img src="assets/img/logo-novera-labs.png" alt="Novera Labs" width="104" height="19"></a>
+    <nav aria-label="Main">
+      <div class="nav-dd">
+        <a href="services.html" aria-haspopup="true">Services<svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></a>
+        <div class="dd-panel"><div class="dd-grid"><a href="service-websites.html"><b>Websites</b><span>Fast, SEO-ready sites</span></a><a href="service-web-apps.html"><b>Web apps &amp; POS</b><span>Bookings, portals, dashboards</span></a><a href="service-mobile-apps.html"><b>Mobile apps</b><span>Android and iOS, one build</span></a><a href="service-crms.html"><b>CRMs</b><span>Leads, follow-ups, payments</span></a><a href="service-ecommerce.html"><b>E-commerce &amp; B2B</b><span>Stores with UPI and GST</span></a><a href="service-ai-automation.html"><b>AI &amp; automation</b><span>WhatsApp bots and AI tools</span></a></div><a class="dd-all" href="services.html">All services →</a></div>
+      </div>
+      <a href="work.html" aria-current="page">Work</a>
+      <a href="how-we-work.html">How we work</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="actions">
+      <a class="wa" href="https://wa.me/919870443265" aria-label="WhatsApp +91 98704 43265"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1FAF55" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l1.7-5A8.5 8.5 0 1 1 8 19.3z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.4-2-1-1 .8a4 4 0 0 1-2.1-2.1l.8-1-1-2z"/></svg></a>
+      <a class="start" href="contact.html">Start a project<span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0B1230" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a>
+      <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<nav class="mobile-menu" id="mobile-menu" aria-label="Mobile">
+  <a class="item" href="services.html">Services<span class="circ"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a>
+  <div class="sub"><a href="service-websites.html">Websites</a><a href="service-web-apps.html">Web apps &amp; POS</a><a href="service-mobile-apps.html">Mobile apps</a><a href="service-crms.html">CRMs</a><a href="service-ecommerce.html">E-commerce &amp; B2B</a><a href="service-ai-automation.html">AI &amp; automation</a></div>
+  <a class="item" href="work.html" aria-current="page">Work<span class="circ"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a>
+  <a class="item" href="how-we-work.html">How we work<span class="circ"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a>
+  <a class="item" href="contact.html">Contact<span class="circ"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a>
+  <div class="bottom">
+    <a class="btn" href="contact.html">Start a project<span class="dot"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a>
+    <a class="wa-row" href="https://wa.me/919870443265"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1FAF55" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l1.7-5A8.5 8.5 0 1 1 8 19.3z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.4-2-1-1 .8a4 4 0 0 1-2.1-2.1l.8-1-1-2z"/></svg>WhatsApp +91 98704 43265</a>
+    <p class="eb">Replies within 1 working day</p>
+  </div>
+</nav>
+
+<main>
+  <section class="wrap case-top">
+    <p class="crumb"><a href="work.html">Work</a> / <b>CRM</b></p>
+    <h1 class="h1 s92">A CRM that keeps <span class="g">Boombastic&#x27;s</span> pipeline moving.</h1>
+    <div class="facts"><div><small>Industry</small><b>[Add industry]</b></div><div><small>What we built</small><b>Custom CRM</b></div><div><small>Platform</small><b>Web, works on phone</b></div><div><small>Delivered in</small><b>[X weeks]</b></div></div>
+  </section>
+
+  <section class="wrap-wide case-media" aria-label="Boombastic">
+    <div class="box has-img"><img src="assets/img/work-boombastic.jpg" alt="Boombastic"></div>
+  </section>
+
+  <section class="wrap split-07 case-sec first">
+    <p class="eb">01 · The client</p>
+    <p class="story">Boombastic [add a line on what they do]. The team tracked customers, visits and follow-ups across [add the old tools].</p>
+  </section>
+  <section class="wrap split-07 case-sec s96">
+    <p class="eb">02 · What they needed</p>
+    <p class="story">One CRM where the team could see every customer, visit and deal, <span>and never miss a follow-up or a payment.</span></p>
+  </section>
+  <section class="wrap case-sec">
+    <div class="split-07">
+      <p class="eb">03 · What we built</p>
+      <div class="feats">
+        <div class="feat"><span class="n">01</span><b>Customers and visits</b><span>Every customer and every visit, logged in one place.</span></div>
+        <div class="feat"><span class="n">02</span><b>Pipeline</b><span>Deals by stage, so the team knows what to chase next.</span></div>
+        <div class="feat"><span class="n">03</span><b>Follow-up reminders</b><span>Nobody forgets a call-back.</span></div>
+        <div class="feat"><span class="n">04</span><b>Payments</b><span>What&#x27;s paid and what&#x27;s due, per customer.</span></div>
+      </div>
+    </div>
+    
+  </section>
+  <section class="wrap split-07 case-sec">
+    <p class="eb">04 · Stack</p>
+    <div class="stack-chips"><span>[Add stack]</span></div>
+  </section>
+  <section class="wrap case-sec">
+    <figure class="case-quote">
+      <blockquote>“[Add a real quote from the client, approved by them]”</blockquote>
+      <figcaption><span class="av"></span><span><b>[Name]</b><small>[Role], Boombastic</small></span></figcaption>
+    </figure>
+    <a class="all-projects" href="work.html"><b>View All Projects</b><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a>
+  </section>
+</main>
+<section class="cta" id="start">
+  <div class="wrap grid">
+    <div class="copy">
+      <p class="eb">Free quote · No obligation</p>
+      <h2>Have an idea? Let's put it on screen.</h2>
+      <p class="sub">Tell us what you want to build. We'll come back with questions, an approach and one fair, fixed price.</p>
+      <ol class="steps">
+        <li><span>01</span><span>We reply within one working day</span></li>
+        <li><span>02</span><span>A short call to understand your business</span></li>
+        <li><span>03</span><span>A written scope and one fixed price</span></li>
+      </ol>
+    </div>
+    <div class="form-wrap">
+      <a class="tile-wa" href="https://wa.me/919870443265" aria-label="WhatsApp us"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#06240F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l1.7-5A8.5 8.5 0 1 1 8 19.3z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.4-2-1-1 .8a4 4 0 0 1-2.1-2.1l.8-1-1-2z"/></svg></a>
+      <div class="tile-mark" aria-hidden="true"><img src="assets/img/mark-white.png" alt=""></div>
+      <div class="tile-reply">Reply within 1 working day</div>
+      <form class="quote-form" novalidate>
+        <div class="two">
+          <label for="q-name">Your name<input id="q-name" name="name" type="text" placeholder="Ankit Sharma" autocomplete="name" required></label>
+          <label for="q-phone">Phone or WhatsApp<input id="q-phone" name="phone" type="tel" placeholder="+91" autocomplete="tel" required></label>
+        </div>
+        <fieldset>
+          <legend>What do you want to build?</legend>
+          <div class="chips" data-single data-name="type">
+            <button type="button" class="chip" aria-pressed="false">Website</button>
+            <button type="button" class="chip" aria-pressed="false">Web app</button>
+            <button type="button" class="chip" aria-pressed="true">Mobile app</button>
+            <button type="button" class="chip" aria-pressed="false">CRM</button>
+            <button type="button" class="chip" aria-pressed="false">E-commerce</button>
+            <button type="button" class="chip" aria-pressed="false">AI &amp; automation</button>
+            <button type="button" class="chip" aria-pressed="false">Not sure yet</button>
+          </div>
+        </fieldset>
+        <label for="q-msg">Tell us a little more<textarea id="q-msg" name="message" rows="3" placeholder="e.g. A booking app for our salon chain, with reminders on WhatsApp"></textarea></label>
+        <label for="q-budget"><span>Budget range<span class="hint">Optional, helps us suggest the right scope</span></span>
+          <select id="q-budget" name="budget"><option>Not sure yet</option><option>Under ₹50,000</option><option>₹50,000 to ₹1,50,000</option><option>₹1,50,000 to ₹5,00,000</option><option>Above ₹5,00,000</option></select>
+        </label>
+        <button type="submit" class="submit">Get my free quote<span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0B1230" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></span></button>
+        <p class="fine">Your details stay with us. No spam, no sales calls you didn't ask for.</p>
+        <div class="form-done" role="status"><p class="t">Thanks, we've got it.</p><p class="s">We'll reply within one working day.</p></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wordmark" aria-hidden="true"><span>novera</span></div>
+  <div class="panel">
+    <div class="inner">
+      <div class="cols">
+        <div class="brand">
+          <img src="assets/img/logo-novera-labs-white.png" alt="Novera Labs" width="173" height="31">
+          <p>Custom websites, apps, CRMs and automation for businesses across India. Designed first, built right, supported after launch.</p>
+          <a class="wa-pill" href="https://wa.me/919870443265">WhatsApp +91 98704 43265</a>
+        </div>
+        <div class="col">
+          <p>Services</p>
+          <a href="service-websites.html">Websites</a>
+          <a href="service-web-apps.html">Web apps</a>
+          <a href="service-mobile-apps.html">Mobile apps</a>
+          <a href="service-crms.html">CRMs and dashboards</a>
+          <a href="service-ecommerce.html">E-commerce</a>
+          <a href="service-ai-automation.html">AI and automation</a>
+        </div>
+        <div class="col">
+          <p>Company</p>
+          <a href="work.html">Work</a>
+          <a href="how-we-work.html">How we work</a>
+          <a href="how-we-work.html">Pricing</a>
+          <a href="how-we-work.html">FAQ</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="col">
+          <p>Contact</p>
+          <a href="tel:+919870443265">+91 98704 43265</a>
+          <span>[email@novera]</span>
+          <span>[City], India</span>
+        </div>
+      </div>
+      <div class="base"><span>© 2026 Novera Labs</span><span>Made in India</span></div>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

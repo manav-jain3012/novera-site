@@ -1,0 +1,5 @@
+# Netlify runs build.py on every push (including saves from /admin),
+# which regenerates the case study pages and the Work grid.
+[build]
+  command = "python3 build.py"
+  publish = "."

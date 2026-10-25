@@ -1,0 +1,65 @@
+{
+  "show_on_work": true,
+  "hero_image": "assets/img/work-boombastic.jpg",
+  "screens": [],
+  "quote": {
+    "text": "[Add a real quote from the client, approved by them]",
+    "name": "[Name]",
+    "role": "[Role], Boombastic"
+  },
+  "needed_muted": "and never miss a follow-up or a payment.",
+  "slug": "boombastic",
+  "name": "Boombastic",
+  "order": 5,
+  "number": "05",
+  "type_label": "CRM",
+  "filter": "CRM",
+  "card_image": "assets/img/work-boombastic.jpg",
+  "card_line": "A custom CRM that tracks customers, visits, pipeline, follow-ups and payments for the team.",
+  "crumb": "CRM",
+  "title_before": "A CRM that keeps",
+  "title_highlight": "Boombastic's",
+  "title_after": "pipeline moving.",
+  "facts": [
+    {
+      "label": "Industry",
+      "value": "[Add industry]"
+    },
+    {
+      "label": "What we built",
+      "value": "Custom CRM"
+    },
+    {
+      "label": "Platform",
+      "value": "Web, works on phone"
+    },
+    {
+      "label": "Delivered in",
+      "value": "[X weeks]"
+    }
+  ],
+  "client": "Boombastic [add a line on what they do]. The team tracked customers, visits and follow-ups across [add the old tools].",
+  "needed": "One CRM where the team could see every customer, visit and deal,",
+  "features": [
+    {
+      "title": "Customers and visits",
+      "text": "Every customer and every visit, logged in one place."
+    },
+    {
+      "title": "Pipeline",
+      "text": "Deals by stage, so the team knows what to chase next."
+    },
+    {
+      "title": "Follow-up reminders",
+      "text": "Nobody forgets a call-back."
+    },
+    {
+      "title": "Payments",
+      "text": "What's paid and what's due, per customer."
+    }
+  ],
+  "stack": [
+    "[Add stack]"
+  ],
+  "seo_description": "How Novera Labs built a custom CRM for Boombastic to track customers, visits, pipeline, follow-ups and payments."
+}

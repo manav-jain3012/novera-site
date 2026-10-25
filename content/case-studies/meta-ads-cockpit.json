@@ -1,0 +1,65 @@
+{
+  "show_on_work": true,
+  "hero_image": "assets/img/work-meta-ads-cockpit.jpg",
+  "screens": [],
+  "quote": {
+    "text": "[Add a real quote from the client, approved by them]",
+    "name": "[Name]",
+    "role": "[Role], Meta Ads Cockpit"
+  },
+  "needed_muted": "and tells you which ads to fix, scale or stop.",
+  "slug": "meta-ads-cockpit",
+  "name": "Meta Ads Cockpit",
+  "order": 7,
+  "number": "05",
+  "type_label": "Internal tool",
+  "filter": "Web app",
+  "card_image": "assets/img/work-meta-ads-cockpit.jpg",
+  "card_line": "A highly ambitious CRM cum AI based Ads engine that tracks leads, follow-ups, demos and deals for the team, along with giving recommendation & flags for your Meta ads.",
+  "crumb": "Internal tool · AI + CRM",
+  "title_before": "An AI cockpit for",
+  "title_highlight": "Meta ads",
+  "title_after": "and the leads they bring.",
+  "facts": [
+    {
+      "label": "Type",
+      "value": "Internal tool"
+    },
+    {
+      "label": "What we built",
+      "value": "CRM + AI ads engine"
+    },
+    {
+      "label": "Platform",
+      "value": "Web"
+    },
+    {
+      "label": "Delivered in",
+      "value": "[X weeks]"
+    }
+  ],
+  "client": "[Add who uses the cockpit]. Leads from Meta ads were tracked separately from the ads themselves, so it was hard to see which campaigns brought real deals.",
+  "needed": "One place that tracks every lead from first click to closed deal,",
+  "features": [
+    {
+      "title": "Lead pipeline",
+      "text": "Leads, follow-ups, demos and deals in one view."
+    },
+    {
+      "title": "AI recommendations",
+      "text": "Suggestions and flags for your Meta ads."
+    },
+    {
+      "title": "Team follow-ups",
+      "text": "Reminders so no lead goes cold."
+    },
+    {
+      "title": "Campaign reporting",
+      "text": "Which ads bring real deals, not just clicks."
+    }
+  ],
+  "stack": [
+    "[Add stack]"
+  ],
+  "seo_description": "How Novera Labs built Meta Ads Cockpit, a CRM and AI ads engine for leads, follow-ups and Meta ad recommendations."
+}

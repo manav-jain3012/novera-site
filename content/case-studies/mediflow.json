@@ -1,0 +1,65 @@
+{
+  "show_on_work": true,
+  "hero_image": "assets/img/work-mediflow.jpg",
+  "screens": [],
+  "quote": {
+    "text": "[Add a real quote from the client, approved by them]",
+    "name": "[Name]",
+    "role": "[Role], MediFlow"
+  },
+  "needed_muted": "without stitching reports together by hand.",
+  "slug": "mediflow",
+  "name": "MediFlow",
+  "order": 3,
+  "number": "03",
+  "type_label": "CRM",
+  "filter": "CRM",
+  "card_image": "assets/img/work-mediflow.jpg",
+  "card_line": "A pharma & path lab, with a robust CRM to track every patient activity and overall business metrics in one place",
+  "crumb": "CRM · Pharma & path lab",
+  "title_before": "A CRM that keeps",
+  "title_highlight": "MediFlow's",
+  "title_after": "patients on track.",
+  "facts": [
+    {
+      "label": "Industry",
+      "value": "Pharma & path lab"
+    },
+    {
+      "label": "What we built",
+      "value": "Custom CRM"
+    },
+    {
+      "label": "Platform",
+      "value": "Web, works on phone"
+    },
+    {
+      "label": "Delivered in",
+      "value": "[X weeks]"
+    }
+  ],
+  "client": "MediFlow runs a pharmacy and path lab [add city]. Patient visits, tests and payments were tracked across [add the old tools: registers, Excel, chats].",
+  "needed": "One place to track every patient activity and see how the business is doing,",
+  "features": [
+    {
+      "title": "Patient records",
+      "text": "Every patient, visit and test in one place."
+    },
+    {
+      "title": "Test and order tracking",
+      "text": "[Confirm what is tracked]."
+    },
+    {
+      "title": "Payments",
+      "text": "What's paid and what's due."
+    },
+    {
+      "title": "Business metrics",
+      "text": "Daily and monthly numbers on one dashboard."
+    }
+  ],
+  "stack": [
+    "[Add stack]"
+  ],
+  "seo_description": "How Novera Labs built a custom CRM for MediFlow, a pharma and path lab."
+}

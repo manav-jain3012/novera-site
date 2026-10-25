@@ -1,0 +1,82 @@
+{
+  "show_on_work": true,
+  "hero_image": "",
+  "screens": [
+    {
+      "label": "Screenshot: bookings",
+      "image": ""
+    },
+    {
+      "label": "Screenshot: customer profile",
+      "image": ""
+    },
+    {
+      "label": "Phone view",
+      "image": ""
+    }
+  ],
+  "quote": {
+    "text": "[Real quote from Detailing Adda's owner, approved by them]",
+    "name": "[Name]",
+    "role": "[Role], Detailing Adda"
+  },
+  "needed_muted": "without digging through chats.",
+  "slug": "detailing-adda",
+  "name": "Detailing Adda",
+  "order": 4,
+  "number": "04",
+  "type_label": "CRM",
+  "filter": "CRM",
+  "card_image": "assets/img/work-detailing-adda.jpg",
+  "card_line": "A CRM for a car detailing business: every customer, booking, service and payment in one place.",
+  "crumb": "CRM · Car detailing",
+  "title_before": "A CRM that runs",
+  "title_highlight": "Detailing Adda's",
+  "title_after": "day.",
+  "facts": [
+    {
+      "label": "Industry",
+      "value": "Car detailing"
+    },
+    {
+      "label": "What we built",
+      "value": "Custom CRM"
+    },
+    {
+      "label": "Platform",
+      "value": "Web, works on phone"
+    },
+    {
+      "label": "Delivered in",
+      "value": "[X weeks]"
+    }
+  ],
+  "client": "Detailing Adda is a car detailing studio in [city]. Bookings came in by phone and WhatsApp, and customer history lived in notebooks and chats.",
+  "needed": "One system where the team could see every booking, know each car's service history, and track what's been paid,",
+  "features": [
+    {
+      "title": "Customer & car records",
+      "text": "Every customer, their cars and full service history."
+    },
+    {
+      "title": "Booking calendar",
+      "text": "Daily jobs by bay and team member."
+    },
+    {
+      "title": "Payments & invoices",
+      "text": "What's paid, what's due, and invoices in a click."
+    },
+    {
+      "title": "Owner reports",
+      "text": "Revenue, repeat customers and busiest days."
+    }
+  ],
+  "stack": [
+    "Next.js",
+    "Node.js",
+    "PostgreSQL",
+    "WhatsApp Business API",
+    "AWS"
+  ],
+  "seo_description": "How Novera Labs built a custom CRM for Detailing Adda, a car detailing studio: customers, cars, bookings, payments and owner reports in one place."
+}

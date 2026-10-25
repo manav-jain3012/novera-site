@@ -1,0 +1,65 @@
+{
+  "show_on_work": true,
+  "hero_image": "assets/img/work-fog-pos.jpg",
+  "screens": [],
+  "quote": {
+    "text": "[Add a real quote from the client, approved by them]",
+    "name": "[Name]",
+    "role": "[Role], Flavours of Gwalior"
+  },
+  "needed_muted": "and the owner can see how the business is performing.",
+  "slug": "flavours-of-gwalior-pos",
+  "name": "Flavours of Gwalior",
+  "order": 8,
+  "number": "06",
+  "type_label": "POS",
+  "filter": "Web app",
+  "card_image": "assets/img/work-fog-pos.jpg",
+  "card_line": "An internal POS sytem with different access level to track  & fullfill orders, and see how business is performing with in depth analytical reporting.",
+  "crumb": "POS software · Restaurant",
+  "title_before": "A POS that runs",
+  "title_highlight": "Flavours of Gwalior's",
+  "title_after": "kitchen and counter.",
+  "facts": [
+    {
+      "label": "Industry",
+      "value": "Restaurant"
+    },
+    {
+      "label": "What we built",
+      "value": "POS software"
+    },
+    {
+      "label": "Platform",
+      "value": "Web, works on tablet"
+    },
+    {
+      "label": "Delivered in",
+      "value": "[X weeks]"
+    }
+  ],
+  "client": "Flavours of Gwalior is a restaurant [add city]. Orders from tables, the counter and the app needed to reach the kitchen and be tracked until served.",
+  "needed": "One POS where every order is tracked and fulfilled, with the right access for each role,",
+  "features": [
+    {
+      "title": "Live orders",
+      "text": "Every order tracked from placed to served."
+    },
+    {
+      "title": "Access levels",
+      "text": "Owner, manager, kitchen and counter each see what they need."
+    },
+    {
+      "title": "Billing",
+      "text": "[Confirm billing and payment features]."
+    },
+    {
+      "title": "Analytics",
+      "text": "In-depth reports on sales and performance."
+    }
+  ],
+  "stack": [
+    "[Add stack]"
+  ],
+  "seo_description": "How Novera Labs built an internal POS system for Flavours of Gwalior, with access levels and in-depth reporting."
+}

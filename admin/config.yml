@@ -1,0 +1,112 @@
+# Content editor for the Novera Labs site (Decap CMS).
+# Open https://<your-site>/admin, sign in with GitHub, and edit case studies.
+# Every save commits to the repo; Netlify then runs build.py and the site updates in about a minute.
+backend:
+  name: github
+  repo: manav-jain3012/novera-site
+  branch: main
+  commit_messages:
+    create: "Add case study: {{slug}}"
+    update: "Update case study: {{slug}}"
+    delete: "Delete case study: {{slug}}"
+
+site_url: https://noveralabs.in   # TODO: set to the live domain
+display_url: https://noveralabs.in
+logo_url: /assets/img/logo-novera-labs.png
+media_folder: assets/img/uploads
+public_folder: assets/img/uploads
+
+collections:
+  - name: case_studies
+    label: Case studies
+    label_singular: Case study
+    description: "Each entry becomes a page at case-study-<url-name>.html and a card on the Work page."
+    folder: content/case-studies
+    format: json
+    extension: json
+    create: true
+    delete: true
+    identifier_field: slug
+    slug: "{{fields.slug}}"
+    summary: "{{number}} · {{name}} ({{type_label}})"
+    sortable_fields: [order, name]
+    fields:
+      - { name: name, label: Project name, widget: string }
+      - { name: slug, label: URL name, widget: string, pattern: ['^[a-z0-9-]+$', 'Lowercase letters, numbers and dashes only'], hint: "The page will be case-study-<this>.html. Don't change it after publishing, or old links will break." }
+      - { name: order, label: Position on the Work page, widget: number, value_type: float, default: 99, hint: "Lower numbers show first." }
+      - { name: show_on_work, label: Show on the Work page, widget: boolean, default: true }
+
+      # Card on the Work page
+      - { name: number, label: Card number, widget: string, default: "09", hint: "Shown as 01 · Website" }
+      - { name: type_label, label: Type label, widget: string, hint: "Shown on the card, e.g. Website, CRM, Mobile app, POS" }
+      - { name: filter, label: Work page filter, widget: select, options: [Website, Web app, Mobile app, CRM] }
+      - { name: card_image, label: Card image, widget: image, hint: "Landscape, about 1200 × 830 px" }
+      - { name: card_line, label: Card description, widget: text }
+
+      # Page top
+      - { name: crumb, label: Breadcrumb, widget: string, hint: "e.g. CRM · Car detailing" }
+      - { name: title_before, label: "Title, start", widget: string, hint: "e.g. A CRM that runs" }
+      - { name: title_highlight, label: "Title, highlighted part", widget: string, hint: "Shown in the blue gradient, e.g. Detailing Adda's" }
+      - { name: title_after, label: "Title, end", widget: string, required: false, hint: "e.g. day." }
+      - name: facts
+        label: Facts row
+        widget: list
+        max: 4
+        summary: "{{fields.label}}: {{fields.value}}"
+        fields:
+          - { name: label, label: Label, widget: string }
+          - { name: value, label: Value, widget: string }
+      - { name: hero_image, label: Main image, widget: image, required: false, hint: "Wide image under the title. Leave empty to show a placeholder." }
+
+      # Story
+      - { name: client, label: "01 · The client", widget: text }
+      - { name: needed, label: "02 · What they needed", widget: text }
+      - { name: needed_muted, label: "02 · Grey ending (optional)", widget: string, required: false }
+      - name: features
+        label: "03 · What we built"
+        widget: list
+        summary: "{{fields.title}}"
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: text, label: Text, widget: text }
+      - name: screens
+        label: Screenshots (up to 3, the third shows as a phone)
+        widget: list
+        required: false
+        max: 3
+        summary: "{{fields.label}}"
+        fields:
+          - { name: label, label: Label, widget: string }
+          - { name: image, label: Image, widget: image, required: false }
+      - { name: stack, label: "04 · Stack", widget: list, required: false, hint: "One per line, e.g. Next.js" }
+      - name: quote
+        label: Client quote
+        widget: object
+        required: false
+        hint: "Leave the text empty to hide the quote."
+        fields:
+          - { name: text, label: Quote, widget: text, required: false }
+          - { name: name, label: Name, widget: string, required: false }
+          - { name: role, label: "Role, company", widget: string, required: false }
+      - { name: seo_description, label: Google description, widget: text, required: false, hint: "About 150 characters." }
+
+  - name: more_work
+    label: More we've built
+    label_singular: Project
+    description: "Rows in the 'More we've built' list on the Work page. Each row opens its PDF."
+    folder: content/more-work
+    format: json
+    extension: json
+    create: true
+    delete: true
+    identifier_field: slug
+    slug: "{{fields.slug}}"
+    summary: "{{title}} ({{tag}})"
+    sortable_fields: [order, title]
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: slug, label: File name, widget: string, pattern: ['^[a-z0-9-]+$', 'Lowercase letters, numbers and dashes only'] }
+      - { name: tag, label: Tag, widget: string, hint: "e.g. Restaurants" }
+      - { name: line, label: One-line description, widget: text }
+      - { name: pdf, label: PDF, widget: file, required: false, media_folder: /assets/pdf, public_folder: /assets/pdf, hint: "Upload the PDF this row opens. Without a PDF the row is not clickable." }
+      - { name: order, label: Position, widget: number, value_type: float, default: 99, hint: "Lower numbers show first." }

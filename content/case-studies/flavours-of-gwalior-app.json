@@ -1,0 +1,66 @@
+{
+  "show_on_work": true,
+  "hero_image": "assets/img/work-fog-app.jpg",
+  "screens": [],
+  "quote": {
+    "text": "[Add a real quote from the client, approved by them]",
+    "name": "[Name]",
+    "role": "[Role], Flavours of Gwalior"
+  },
+  "needed_muted": "while the kitchen gets every order instantly.",
+  "slug": "flavours-of-gwalior-app",
+  "name": "Flavours of Gwalior",
+  "order": 6,
+  "number": "06",
+  "type_label": "Mobile app",
+  "filter": "Mobile app",
+  "card_image": "assets/img/work-fog-app.jpg",
+  "card_line": "An instore food ordering app where customers browse the menu, order, call waiter and pay from their phone.",
+  "crumb": "Mobile app · Restaurant",
+  "title_before": "An app that takes",
+  "title_highlight": "Flavours of Gwalior's",
+  "title_after": "orders at the table.",
+  "facts": [
+    {
+      "label": "Industry",
+      "value": "Restaurant"
+    },
+    {
+      "label": "What we built",
+      "value": "Ordering app"
+    },
+    {
+      "label": "Platform",
+      "value": "Android & iOS"
+    },
+    {
+      "label": "Delivered in",
+      "value": "[X weeks]"
+    }
+  ],
+  "client": "Flavours of Gwalior is a restaurant [add city]. Orders were taken by hand, and guests had to wait for a waiter to order, ask for anything or pay.",
+  "needed": "An app where guests browse the menu, order, call the waiter and pay from their own phone,",
+  "features": [
+    {
+      "title": "Menu and ordering",
+      "text": "Guests browse the full menu and order from the table."
+    },
+    {
+      "title": "Call waiter",
+      "text": "One tap sends a request to the staff."
+    },
+    {
+      "title": "Pay from the phone",
+      "text": "[Confirm payment options]."
+    },
+    {
+      "title": "Admin panel",
+      "text": "Menu, prices and availability updated without a developer."
+    }
+  ],
+  "stack": [
+    "Flutter",
+    "[Add stack]"
+  ],
+  "seo_description": "How Novera Labs built an in-store food ordering app for Flavours of Gwalior."
+}
